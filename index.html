@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.10/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- *********************** header 시작 *********************** -->
+
+    <header class="header">
+        <div class="head_container clear">
+            <div class="head_left clear">
+                <div class="logo"></div>
+
+                <!-- *********************** header_left 시작 *********************** -->
+
+                <div class="head_left_txt">
+                    <ul class="clear">
+                        <li>
+                            <a href="#">자동차금융</a>
+                            <div class="head_submenu clear">
+                                <div>
+                                    <ul>
+                                        <li>중고차</li>
+                                        <li><a href="#">중고차 대출</a></li>
+                                        <li><a href="#">중고차 리스</a></li>
+                                        <li><a href="#">자동차 담보대출</a></li>
+                                        <li><a href="#">자동차 대환대출</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>신차</li>
+                                        <li><a href="#">신차 할부</a></li>
+                                        <li><a href="#">신차 리스</a></li>
+                                        <li><a href="#">장기 렌터카</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>상용차</li>
+                                        <li><a href="#">상용신차 할부</a></li>
+                                        <li><a href="#">상용 중고차대출</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="head_submenu_bg"></div>
+                        </li>
+                        <li>
+                            <a href="#">개인금융</a>
+                            <div class="head_submenu clear">
+                                <div>
+                                    <ul>
+                                        <li>신용대출</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>임대아파트전세대출</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="head_submenu_bg"></div>
+                        </li>
+                        <li>
+                            <a href="#">기업금융</a>
+                            <div class="head_submenu clear">
+                                <div>
+                                    <ul>
+                                        <li>기업금융/투자금융</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="head_submenu_bg"></div>
+                        </li>
+                        <li>
+                            <a href="#">My KB</a>
+                            <div class="head_submenu clear">
+                                <div>
+                                    <ul>
+                                        <li>메인</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>이용현황</li>
+                                        <li><a href="#">이용상품내역</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>온라인창구</li>
+                                        <li><a href="#">창구금 안내 및 결제</a></li>
+                                        <li><a href="#">결제신청내역</a></li>
+                                        <li><a href="#">청구정보변경</a></li>
+                                        <li><a href="#">온라인 저당 해지</a></li>
+                                        <li><a href="#">사업자 폐업신고</a></li>
+                                        <li><a href="#">자동차세 조회 및 영수증 요청</a></li>
+                                        <li><a href="#">렌터카 보험조건 변경</a></li>
+                                        <li><a href="#">렌터카 추가 운전자 등록</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>증명서발급</li>
+                                        <li><a href="#">증명서발급</a></li>
+                                        <li><a href="#">증명서발급이력</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>이력조회</li>
+                                        <li><a href="#">한도조회 현황</a></li>
+                                        <li><a href="#">승계접수 현황</a></li>
+                                        <li><a href="#">MyKB 이력조회</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="head_submenu list_second clear">
+                                <div>
+                                    <ul>
+                                        <li>내정보관리</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>이용현황(리스&middot;렌터카)</li>
+                                        <li><a href="#">만기계승안내</a></li>
+                                        <li><a href="#">계산서조회 및 재발송요청</a></li>
+                                        <li><a href="#">과태료조회</a></li>
+                                        <li><a href="#">자동차 검사 유효기간 확인</a></li>
+                                        <li><a href="#">리콜대상 확인</a></li>
+                                        <li><a href="#">중도해지</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="head_submenu_bg"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- *********************** header_right 시작 *********************** -->
+
+            <div class="head_right">
+                <div class="head_right_txt">
+                    <ul class="clear">
+                        <li><a href="#">KB ZONE</a></li>
+                        <li><a href="#">소비자보호</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">회사센터</a></li>
+                        <li><a href="#">인증센터</a></li>
+                    </ul>
+                </div>
+                <div class="head_icon clear">
+                    <div class="login">로그인</div>
+                    <div class="search"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="wrap_right">
+
+        <!-- *********************** top_title 시작 *********************** -->
+
+        <div class="top_title">
+            <div class="container">
+                <h2>고객님께 힘이 되는 금융파트너</h2>
+                <h1>KB캐피탈이 함께합니다.</h1>
+            </div>
+        </div>
+
+        <div class="main_cont">
+            <div class="container">
+
+                <!-- *********************** main_cont_left 시작 *********************** -->
+
+                <div class="main_cont_left">
+                    <ul class="clear">
+                        <li>
+                            <p>자동차 금융</p>
+                            <h3>자동차가 필요하신 고객</h3>
+                            <div class="cont_bgi"></div>
+                            <div class="cont_bgani"></div>
+                        </li>
+                        <li>
+                            <p>개인 금융</p>
+                            <h3>신용대출이 필요하신 고객</h3>
+                            <div class="cont_bgi"></div>
+                            <div class="cont_bgani"></div>
+                        </li>
+                        <li>
+                            <p>기업 금융</p>
+                            <h3>법인고객을 위한 솔루션</h3>
+                            <div class="cont_bgi"></div>
+                            <div class="cont_bgani"></div>
+                        </li>
+                        <li>
+                            <p>My KB</p>
+                            <h3>대출현황 및 내 차고정보</h3>
+                            <div class="cont_bgi"></div>
+                            <div class="cont_bgani"></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- *********************** main_cont_right 시작 *********************** -->
+
+                <div class="main_cont_right">
+                    <div class="cont_right1">
+                        <ul class="clear">
+                            <li>
+                                <p>Self 상품설계</p>
+                                <h3>고객님께서 필요하신 서비스는<br> 무엇인가요?</h3>
+                            </li>
+                            <li><a href="#">자동차구매</a></li>
+                            <li><a href="#">내 차 대출</a></li>
+                            <li><a href="#">자금마련</a></li>
+                        </ul>
+                    </div>
+                    <div class="cont_right2 clear">
+                        <div class="cont_right_txt clear">
+                            <p>공지사항 / 이벤트</p>
+                            <h2>&#43; 더보기</h2>
+                            <div class="cont2">
+                                <ul>
+                                    <li><a href="#">KB캐피탈 노후화 서버(SMS, 파일공유) 교체 입찰 공고</a></li>
+                                    <li><a href="#">KB캐피탈 방문판매 임직원 현황 안내 ('23년 3분기 기준)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cont_right_txt">
+                            <p>회사소식</p>
+                            <h2>&#43; 더보기</h2>
+                            <div class="cont2">
+                                <ul>
+                                    <li><a href="#">KB금융, KB캐피탈의 KB차차차 데이터로 알아보는 250마력 이상 고출력 중고차 인기 순위는?
+                                            (2023.11.02)</a></li>
+                                    <li><a href="#">KB캐피탈, 저소득 가정 수능 수험생 합격 기원을 위한 후원금 전달 (2023.10.31)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont_right3 clear">
+                        <div class="cont3_left">
+                            <h4>자동차담보대출</h4>
+                            <p>
+                                대출만기엔 보다 낮은 금리로<br>
+                                여유자금대출을 준비해보세요!
+                            </p>
+                        </div>
+                        <div class="cont3_right">
+                            <h4>KB스타클럽</h4>
+                            <p>
+                                KB스타클럽으로 고객님을 초대합니다.<br>
+                                KB금융그룹 계열사별 혜택을 확인해보세요!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- *********************** footer 시작 *********************** -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_border">
+                    <div class="footer_top">
+                        <ul class="clear">
+                            <li>고객상담<em>1544-1200</em><strong>(평일 09:00 ~ 18:00)</strong></li>
+                            <li>신용대출상담<em>1577-2223</em></li>
+                            <li>자동차대출상담<em>1522-1112</em></li>
+                            <li>렌터카/사고/정비<em>1544-9770</em></li>
+                            <li>연체상담<em>1533-1115</em></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_mid">
+                    <ul class="clear">
+                        <li>이용약관</li>
+                        <li>개인정보처리방침</li>
+                        <li>영상정보처리기기관리지침</li>
+                        <li>신용정보활용체제</li>
+                        <li>상품약관</li>
+                        <li>전자민원접수</li>
+                        <li>시스템오류문의</li>
+                    </ul>
+                </div>
+                <div class="footer_bottom">
+                    <ul class="clear">
+                        <li>경기도 수원시 팔달구 효원로 295 KB캐피탈(주)</li>
+                        <li>대표이사 황수남</li>
+                        <li>사업자등록번호 124 - 81 - 25121</li>
+                    </ul>
+                    <div class="copyright">COPYRIGHT © COPYRIGHT 2023 KB CAPITAL.CO. LTD. ALL RIGHTS RESERVED.</div>
+                </div>
+                <div class="footer_absol">
+                    <div class="familly_box">패밀리사이트</div>
+                    <div class="foot_img">
+                        <ul class="clear">
+                            <li class="footab_left">
+                                <a href="#"></a>
+                            </li>
+                            <li class="footab_right">
+                                <a href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <!-- *********************** absol_side 시작 *********************** -->
+
+    <div class="wrap_left">
+        <div class="ab_container ab_container1">
+            <div class="ab_content ab_content1">
+                <div class="ab_title">
+                    <h3>온라인으로 간편하고 신속한 금융서비스 제공!</h3>
+                    <h1>다이렉트 중고차대출</h1>
+                </div>
+                <div class="ab_box clear">
+                    <div class="ab_box1">#금리&한도 바로 확인</div>
+                    <div class="ab_box2">#온라인신청</div>
+                </div>
+                <ul>
+                    <li>
+                        한도조회부터 구매까지<strong>원스탑</strong>
+                    </li>
+                    <li>
+                        <strong>무서류&무방문</strong>
+                    </li>
+                    <li>
+                        <strong>온라인</strong>으로 간편하게
+                    </li>
+                </ul>
+                <div class="ab_go">
+                    <a href="#">바로가기</a>
+                </div>
+            </div>
+        </div>
+        <div class="ab_container ab_container2">
+            <div class="ab_content ab_content2">
+                <div class="ab_title">
+                    <h3>내일로, 내집으로, 내차로, 소액론, 플러스론, 탑업론</h3>
+                    <h1>다이렉트 신용대출</h1>
+                </div>
+                <div class="ab_box clear">
+                    <div class="ab_box1">#금리&한도 바로 확인</div>
+                    <div class="ab_box2">#온라인신청</div>
+                </div>
+                <ul>
+                    <li>
+                        <strong>내일로:</strong>만 23세 이상의 내국인 (직장인, 공무원, 군인, 프리랜서, 급여소득자, 자영업자)
+                    </li>
+                    <li>
+                        <strong>내집으로:</strong>아파트, 오피스텔, 단독, 다세대 연립주택 소유/분양/매매/전세 고객
+                    </li>
+                    <li>
+                        <strong>내차로:</strong>자차소유자 (공동명의 제외)
+                    </li>
+                </ul>
+                <div class="ab_go">
+                    <a href="#">바로가기</a>
+                </div>
+            </div>
+        </div>
+        <div class="ab_container ab_container3">
+            <div class="ab_content ab_content3">
+                <div class="ab_title">
+                    <h3>내 차 그대로 대출이 가능한</h3>
+                    <h1>자동차 담보대출 내차로</h1>
+                </div>
+                <div class="ab_box clear">
+                    <div class="ab_box1">#금리&한도 바로 확인</div>
+                    <div class="ab_box2">#온라인신청</div>
+                </div>
+                <ul>
+                    <li>
+                        쉽고 빠른<strong>모바일</strong>약정
+                    </li>
+                    <li>
+                        <strong>내차 그대로</strong>간편하게 한도조회
+                    </li>
+                </ul>
+                <div class="ab_go">
+                    <a href="#">바로가기</a>
+                </div>
+            </div>
+        </div>
+        <div class="ab_container ab_container4">
+            <div class="ab_content ab_content4">
+                <div class="ab_title">
+                    <h3>차량등록, 정비, 사고처리, 보험 등 모든 유지관리서비스 제공</h3>
+                    <h1>장기 렌터카</h1>
+                </div>
+                <div class="ab_box clear">
+                    <div class="ab_box1">#구매하지 않고</div>
+                    <div class="ab_box2">#필요한 기간동안만</div>
+                    <div class="ab_box3">#빌려쓸수있는</div>
+                </div>
+                <ul>
+                    <li>
+                        초기 구매부담 감소
+                    </li>
+                    <li>
+                        편리한 차량 유지관리
+                    </li>
+                    <li>
+                        차량 전환 용이
+                    </li>
+                </ul>
+                <div class="ab_go">
+                    <a href="#">바로가기</a>
+                </div>
+            </div>
+        </div>
+        <div class="ab_arrow">
+            <img src="image/icon_arrow_off.png" alt="" class="ab_arrow_first">
+            <img src="image/icon_arrow_on.png" alt="" class="ab_arrow_second">
+        </div>
+        <div class="ab_dot clear">
+            <ul class="clear">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="ab_pause stop"></div>
+            <div class="ab_pause start"></div>
+            <div class="ab_left_arrow" id="alertStart"></div>
+            <div class="ab_right_arrow" id="alertStart"></div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.10/dist/sweetalert2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>
